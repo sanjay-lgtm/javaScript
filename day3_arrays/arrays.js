@@ -7,15 +7,15 @@
 // let arr = [1, 2, true, "sanjay", null, undefined, sum, {}, [1, 2, 3, 4]];
 // console.log(arr);
 
-let productArray = [
-    { name: 'pro1', price: 100 },
-    { name: 'pro2', price: 200 },
-    { name: 'pro3', price: 300 },
-    { name: 'pro4', price: 400 },
-    { name: 'pro5', price: 500 },
-    { name: 'pro6', price: 600 }
+// let productArray = [
+//     { name: 'pro1', price: 100 },
+//     { name: 'pro2', price: 200 },
+//     { name: 'pro3', price: 300 },
+//     { name: 'pro4', price: 400 },
+//     { name: 'pro5', price: 500 },
+//     { name: 'pro6', price: 600 }
 
-]
+// ]
 
 // splice takes 3 argument:--
 // starting indexe
@@ -71,3 +71,26 @@ let productArray = [
 // console.log(productArray);
 
 // delete gives a empty space
+
+// const array = [1,2,3,4,5]
+// console.log(typeof array);
+
+// console.log(array[4])
+
+// const obj = {
+//     "name":"geekster",
+//     "mode":"online"
+// }
+// console.log(obj["name"]);
+
+// const obj = {
+//     "name": "sanjay",
+//     "place":"up"
+// }
+// console.log(obj.name);
+
+// const array = [1,2,3,4,5,6]
+// const sum = array.reduce(function(total,num){
+//     return total+num
+// },0)
+// console.log(sum);
