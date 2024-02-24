@@ -177,21 +177,21 @@
 
 // console.log(newArr.join(""));
 
-let person = [
-    {name:"sanjay",age:20},
-    {name:"sharma",age:26},
-    {name:"web",age:18},
-    {name:"developer",age:3},
-    {name:"java",age:7}
-]
+// let person = [
+//     {name:"sanjay",age:20},
+//     {name:"sharma",age:26},
+//     {name:"web",age:18},
+//     {name:"developer",age:3},
+//     {name:"java",age:7}
+// ]
 
 
-let Ages = person.map(function(val){
-    return val.age;
-})
-let min = Math.min(...Ages)
-let max = Math.max(...Ages)
-console.log(min,max,(max-min));
+// let Ages = person.map(function(val){
+//     return val.age;
+// })
+// let min = Math.min(...Ages)
+// let max = Math.max(...Ages)
+// console.log(min,max,(max-min));
 // const students = [
 //     { name: 'Hans', age: 3 },
 //     { name: 'Ani', age: 7 },
