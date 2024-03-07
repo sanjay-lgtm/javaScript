@@ -97,3 +97,61 @@
 //callback queue --->\
 //Micro task  queue -->\
 //Macro  task queue / Task Queue--->>
+
+
+// console.log("Begin EC 1");
+
+// const fun = () =>{
+//     console.log("EC2 begin")
+//     queueMicrotask(function(){
+//         console.log('iiner mt')
+//     })
+// }
+
+// const fun2 = () => {
+//     console.log("EC3 begin")
+   
+//     const fun3 = () => {
+//         queueMicrotask(function(){
+//             console.log("inner mt2")
+//         })
+//     }
+//     fun3()
+// }
+// fun2();
+// fun();
+// console.log("EC 1end")
+
+f()
+//print 1
+console.log("con 1")
+
+setTimeout(() => {
+
+    //print 4
+    console.log("con 2");
+    //print 5
+    queueMicrotask(function(){
+        console.log("con 3")
+    })
+    console.log("Hello")
+},2000)
+
+setTimeout(function(){
+    console.log("con 4")
+},2000)
+
+setTimeout(function(){
+    console.log("con 6")
+},10000)
+
+//pending ---> print 3
+
+
+function f(){
+    queueMicrotask(function(){
+        console.log("con 5")
+    })
+}
+
+console.log("finish")// print 2
