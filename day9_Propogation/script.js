@@ -55,7 +55,7 @@
 
 //event object ----> 
 
-let buttons = document.querySelector('button');
+// let buttons = document.querySelector('button');
 
 // buttons.forEach(button => {
 //     button.addEventListener('click', function(event){
@@ -66,18 +66,18 @@ let buttons = document.querySelector('button');
 
 
 //event deligation ----->
-let div = document.querySelector('div');
+// let div = document.querySelector('div');
 
-div.addEventListener('click', function (event) {
-    // let btn = event.target;
+// div.addEventListener('click', function (event) {
+//     // let btn = event.target;
 
-    if (event.target.tagName === 'BUTTON') {
+//     if (event.target.tagName === 'BUTTON') {
 
-        if (event.target.innerText === 'Button 5') {
-            console.log(event)
-            console.log(event.target.innerText)
-        }
+//         if (event.target.innerText === 'Button 5') {
+//             console.log(event)
+//             console.log(event.target.innerText)
+//         }
 
-    }
+//     }
 
-})
+// })
