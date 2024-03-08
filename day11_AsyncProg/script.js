@@ -24,6 +24,10 @@
 //     console.log("Operation 3 ended");
 // }
 
+
+//clear Interval ----> takes an id
+
+
 // function delay(){
 //     setInterval(() => {
 //         console.log("Hello");
@@ -122,36 +126,36 @@
 // fun();
 // console.log("EC 1end")
 
-f()
-//print 1
-console.log("con 1")
+// f()
+// //print 1
+// console.log("con 1")
 
-setTimeout(() => {
+// setTimeout(() => {
 
-    //print 4
-    console.log("con 2");
-    //print 5
-    queueMicrotask(function(){
-        console.log("con 3")
-    })
-    console.log("Hello")
-},2000)
+//     //print 4
+//     console.log("con 2");
+//     //print 5
+//     queueMicrotask(function(){
+//         console.log("con 3")
+//     })
+//     console.log("Hello")
+// },2000)
 
-setTimeout(function(){
-    console.log("con 4")
-},2000)
+// setTimeout(function(){
+//     console.log("con 4")
+// },2000)
 
-setTimeout(function(){
-    console.log("con 6")
-},10000)
+// setTimeout(function(){
+//     console.log("con 6")
+// },10000)
 
 //pending ---> print 3
 
 
-function f(){
-    queueMicrotask(function(){
-        console.log("con 5")
-    })
-}
+// function f(){
+//     queueMicrotask(function(){
+//         console.log("con 5")
+//     })
+// }
 
-console.log("finish")// print 2
+// console.log("finish")// print 2
